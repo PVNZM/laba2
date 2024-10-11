@@ -157,10 +157,6 @@ void fill_deque(int N, std::deque<int>& D) {
 }
 
 void find_middle_elements(const std::vector<int>& V, int& prev, int& mid, int& next) {
-    if (V.size() < 3 || V.size() % 2 == 0) {
-        throw std::invalid_argument("Вектор должен иметь нечетное количество элементов и не менее 3.");
-    }
-
     std::vector<int> sorted_V = V; // Создаем копию вектора для сортировки
     std::sort(sorted_V.begin(), sorted_V.end()); // Сортируем вектор
 
