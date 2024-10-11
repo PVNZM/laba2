@@ -1,12 +1,6 @@
 #include "functions.h"
 #include <iostream>
-#include <fstream>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <iterator>
 #include <numeric> // Добавили для доступа к std::adjacent_difference
-#include <sstream>
 #include <map>
 
 void process_numbers(const std::vector<int>& numbers) {
