@@ -1,13 +1,11 @@
 #include <deque>
 #include <list>
 #include <set>
-#include <map>
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <vector>
 #include <algorithm>
-#include <iterator>
 #include <vector>
 // Функция для обработки списка и вывода его частей
 void process_numbers(const std::vector<int>& numbers);
