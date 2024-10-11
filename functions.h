@@ -3,10 +3,9 @@
 #include <set>
 #include <iostream>
 #include <fstream>
-#include <string>
 #include <vector>
 #include <algorithm>
-#include <vector>
+#include <iterator> 
 // Функция для обработки списка и вывода его частей
 void process_numbers(const std::vector<int>& numbers);
 
