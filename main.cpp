@@ -39,7 +39,7 @@ int main() {
 
                 process_numbers(numbers);
 
-                return 0;
+                break;
             }
             case 2: {
                 std::deque<int> D;
@@ -119,7 +119,7 @@ int main() {
                 }
                 std::cout << std::endl;
 
-                return 0;
+                break;
             }
             case 6: {
                 int N;
@@ -143,7 +143,7 @@ int main() {
                 }
                 std::cout << std::endl;
 
-                return 0;
+                break;
             }
             case 7: {
                 int N;
@@ -169,7 +169,7 @@ int main() {
                 // Выводим результаты
                 std::cout << "Средние элементы: " << prev << ", " << mid << ", " << next << std::endl; 
 
-    return 0;
+                break;
             }
             case 8: {
                 int N;
@@ -201,7 +201,7 @@ int main() {
                 }
                 std::cout << std::endl;
 
-                return 0;
+                break;
             }
             case 9: {
                 int sizeV0;
@@ -246,7 +246,7 @@ int main() {
                 int count = count_vectors_containing_all_elements(V0, vectors);
                 std::cout << "Количество векторов, содержащих все элементы V0: " << count << std::endl;
 
-                return 0;
+                break;
 
             }
             case 10: {
