@@ -74,9 +74,9 @@ int main() {
                 break;
             }
             case 4: {
-                std::string input_file = "name1.txt"; // Убедитесь, что этот файл существует
-                std::string output_file = "name2.txt"; // Файл для записи отфильтрованных слов
-                int K;  // Переменная для хранения максимальной длины слова
+                std::string input_file = "name1.txt"; 
+                std::string output_file = "name2.txt"; 
+                int K;  
 
                 std::cout << "Введите максимальную длину слова (K): ";
                 std::cin >> K;  // Ввод значения K с клавиатуры
